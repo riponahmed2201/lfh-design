@@ -1,0 +1,95 @@
+/* Extra large devices (large desktops, 1200px and up) */
+@media (min-width: 1400px) and (max-width: 1600px) {
+    .mobile-device-signup-section{
+        display: none;
+    }
+
+    .mobile-device-login-logo-area{
+        display: none;
+    }
+    }
+
+
+/* Extra large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) and (max-width: 1400px) {
+.mobile-device-signup-section{
+    display: none;
+}
+.mobile-device-login-logo-area{
+    display: none;
+}
+}
+/* Large devices (desktops, 992px and up) */
+@media (min-width: 992px) and (max-width: 1199px) {
+    .mobile-device-signup-section{
+        display: none;
+    }
+    .mobile-device-login-logo-area{
+        display: none;
+    }
+}
+
+/* Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) and (max-width: 991px) {
+    .holcim-login-form-area{
+        padding: 0px;
+    }
+
+    .holcim-login-left-side-wrapper{
+        display: none;
+    }
+
+    .holcim-login-form-mobile-area{
+        background-image: url("/img/login-bg.png");
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+    .holcim-single-logo-area{
+        display: none;
+
+    }
+}
+/* Small devices (landscape phones, 576px and up) */
+@media (min-width: 576px) and (max-width: 767px) {
+    .holcim-login-form-area{
+        padding: 0px;
+    }
+
+    .holcim-login-left-side-wrapper{
+        display: none;
+    }
+
+    .holcim-login-form-mobile-area{
+        background-image: url("/img/login-bg.png");
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+    .holcim-single-logo-area{
+        display: none;
+
+    }
+}
+@media (min-width: 320px) and (max-width: 575px) {
+    .holcim-login-form-area{
+        padding: 0px;
+    }
+
+    .holcim-login-left-side-wrapper{
+        display: none;
+    }
+
+    .holcim-login-form-mobile-area{
+        background-image: url("/img/login-bg.png");
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+
+    .holcim-single-logo-area{
+        display: none;
+
+    }
+
+}

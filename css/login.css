@@ -1,0 +1,55 @@
+.holcim-login-left-side-wrapper{
+    min-height: 100vh;
+}
+
+.holcim-login-left-side-wrapper{
+    background-image: url("/img/login-bg.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.holcim-login-form-area{
+    padding: 80px 80px;
+}
+
+.holcim-eye-icon{
+    border: 1px solid #3ABDA6;
+    background-color: white;
+    border-radius: 5px;
+    border-left: none;
+}
+
+.holcim-login-input-field input{
+    border: 1px solid #3ABDA6;
+    padding: 15px;
+    border-radius: 5px;
+    border-right: none;
+}
+
+.holcim-login-btn{
+    background-color:#3ABDA6;
+    border: none;
+    padding: 15px;
+    border-radius: 5px;
+    color: white;
+}
+.holcim-signup-btn button{
+    box-shadow: 34px 34px 89px #329D9C36;
+    border: 2px solid #FFFFFF;
+    color: white;
+    padding: 10px 40px 10px 40px;
+    border-radius: 5px;
+    background-color: transparent;
+}
+
+.holcim-login-left-side-content{
+    text-align: center;
+    padding-top: 250px;
+}
+
+.remember-me-and-forgot-password-area{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 14px;
+}
