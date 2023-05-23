@@ -13,33 +13,43 @@
     padding: 80px 80px;
 }
 
+.holcim-signup-form-area{
+    padding: 37px 80px;
+}
+
 .holcim-eye-icon{
     border: 1px solid #3ABDA6;
-    background-color: white;
-    border-radius: 5px;
+    background-color: #FFFFFF;
+    border-radius: 8px;
     border-left: none;
+    box-shadow: 34px 34px 89px #329D9C14;
+
 }
 
 .holcim-login-input-field input{
     border: 1px solid #3ABDA6;
     padding: 15px;
-    border-radius: 5px;
+    border-radius: 8px;
     border-right: none;
+    box-shadow: 34px 34px 89px #329D9C14;
 }
 
 .holcim-login-btn{
-    background-color:#3ABDA6;
     border: none;
     padding: 15px;
     border-radius: 5px;
     color: white;
+    background: #3ABDA6 0% 0% no-repeat padding-box;
+    box-shadow: 34px 34px 89px #329D9C36;
+    border-radius: 8px;
+    opacity: 1;
 }
 .holcim-signup-btn button{
     box-shadow: 34px 34px 89px #329D9C36;
     border: 2px solid #FFFFFF;
     color: white;
-    padding: 10px 40px 10px 40px;
-    border-radius: 5px;
+    padding: 15px 60px 15px 60px;
+    border-radius: 8px;
     background-color: transparent;
 }
 
@@ -53,3 +63,8 @@
     justify-content: space-between;
     margin-bottom: 14px;
 }
+
+.holcim-eye-icon i{
+    color: #3ABDA6;
+}
+

@@ -1,5 +1,5 @@
 /* Extra large devices (large desktops, 1200px and up) */
-@media (min-width: 1400px) and (max-width: 1600px) {
+@media (min-width: 1400px) {
     .mobile-device-signup-section{
         display: none;
     }
@@ -34,13 +34,16 @@
     .holcim-login-form-area{
         padding: 0px;
     }
+    .holcim-signup-form-area{
+        padding: 0px;
+    }
 
     .holcim-login-left-side-wrapper{
         display: none;
     }
 
     .holcim-login-form-mobile-area{
-        background-image: url("/img/login-bg.png");
+        background-image: url("/img/mobile-bg.png");
         background-position: center;
         background-repeat: no-repeat;
         background-size: cover;
@@ -56,12 +59,17 @@
         padding: 0px;
     }
 
+    .holcim-signup-form-area{
+        padding: 0px;
+    }
+
     .holcim-login-left-side-wrapper{
         display: none;
     }
 
     .holcim-login-form-mobile-area{
-        background-image: url("/img/login-bg.png");
+        background-image: url("/img/mobile-bg.png");
+
         background-position: center;
         background-repeat: no-repeat;
         background-size: cover;
@@ -75,13 +83,17 @@
     .holcim-login-form-area{
         padding: 0px;
     }
+    .holcim-signup-form-area{
+        padding: 0px;
+    }
+
 
     .holcim-login-left-side-wrapper{
         display: none;
     }
 
     .holcim-login-form-mobile-area{
-        background-image: url("/img/login-bg.png");
+        background-image: url("/img/mobile-bg.png");
         background-position: center;
         background-repeat: no-repeat;
         background-size: cover;
