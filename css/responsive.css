@@ -52,6 +52,10 @@
         display: none;
 
     }
+
+    .holcim-mobile-label label{
+        color: #FFFFFF;
+    }
 }
 /* Small devices (landscape phones, 576px and up) */
 @media (min-width: 576px) and (max-width: 767px) {
@@ -78,6 +82,10 @@
         display: none;
 
     }
+
+    .holcim-mobile-label label{
+        color: #FFFFFF;
+    }
 }
 @media (min-width: 320px) and (max-width: 575px) {
     .holcim-login-form-area{
@@ -102,6 +110,10 @@
     .holcim-single-logo-area{
         display: none;
 
+    }
+
+    .holcim-mobile-label label{
+        color: #FFFFFF;
     }
 
 }
