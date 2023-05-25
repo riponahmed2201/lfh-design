@@ -86,6 +86,10 @@
     .holcim-mobile-label label{
         color: #FFFFFF;
     }
+
+    .holcim-mobile-device-logo img{
+        width: 75%;
+    }
 }
 @media (min-width: 320px) and (max-width: 575px) {
     .holcim-login-form-area{
@@ -114,6 +118,10 @@
 
     .holcim-mobile-label label{
         color: #FFFFFF;
+    }
+
+    .holcim-mobile-device-logo img{
+        width: 75%;
     }
 
 }
