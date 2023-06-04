@@ -1,5 +1,11 @@
 .holcim-login-left-side-wrapper{
-    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    padding: 0;
+    
 }
 
 .holcim-login-left-side-wrapper{
@@ -10,11 +16,21 @@
 }
 
 .holcim-login-form-area{
-    padding: 80px 80px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    padding: 0;
 }
 
 .holcim-signup-form-area{
-    padding: 90px 80px 0px 80px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    padding: 0;
 }
 
 .holcim-eye-icon{
@@ -56,7 +72,6 @@
 
 .holcim-login-left-side-content{
     text-align: center;
-    padding-top: 250px;
 }
 
 .remember-me-and-forgot-password-area{
