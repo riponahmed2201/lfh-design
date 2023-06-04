@@ -93,7 +93,7 @@
 }
 @media (min-width: 320px) and (max-width: 575px) {
     .holcim-login-form-area{
-        padding: 0px;
+        padding: 54px 0px;
     }
     .holcim-signup-form-area{
         padding: 0px;

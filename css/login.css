@@ -14,7 +14,7 @@
 }
 
 .holcim-signup-form-area{
-    padding: 80px 80px 0px 80px;
+    padding: 90px 80px 0px 80px;
 }
 
 .holcim-eye-icon{
@@ -39,7 +39,8 @@
     padding: 15px;
     border-radius: 5px;
     color: white;
-    background: #3ABDA6 0% 0% no-repeat padding-box;
+    background: linear-gradient(to right, #7BE495, #329D9C);
+
     box-shadow: 34px 34px 89px #329D9C36;
     border-radius: 8px;
     opacity: 1;
