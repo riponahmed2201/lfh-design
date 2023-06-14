@@ -77,7 +77,6 @@ License: For each use you must have a valid license purchased only from above li
             border: 1px solid #3abda6;
             padding: 15px;
             border-radius: 8px;
-            border-right: none;
             box-shadow: 34px 34px 89px #329d9c14;
         }
 
@@ -116,7 +115,7 @@ License: For each use you must have a valid license purchased only from above li
         }
 
         .holcim-file-upload-save-btn {
-            border: 1px solid #8B8B8B;
+            border: 1px solid #8b8b8b;
             border-radius: 5px;
             padding: 8px 25px;
             background-color: transparent;
@@ -126,8 +125,36 @@ License: For each use you must have a valid license purchased only from above li
             border: none;
             border-radius: 5px;
             padding: 9px 25px;
-            background: #3ABDA6 0% 0% no-repeat padding-box;
+            background: #3abda6 0% 0% no-repeat padding-box;
             color: #fff;
+        }
+
+        .input-modify-2-wrapper {
+            width: 180px;
+            border-radius: 5px;
+
+        }
+
+        .input-modify-1 {
+            border-right: none !important;
+        }
+
+        .input-modify-2 {
+            border-top-left-radius: 0px !important;
+            border-bottom-left-radius: 0px !important;
+
+        }
+
+
+
+        #formFile::before {
+            content: "Upload";
+            position: absolute;
+            z-index: 2;
+            display: block;
+            background-color: #F5F8FA;
+            width: 84px;
+            text-align: center;
         }
     </style>
 </head>
@@ -6540,14 +6567,15 @@ License: For each use you must have a valid license purchased only from above li
                                                             <label for="exampleFormControlInput1" class="form-label">
                                                                 ভ্যাট নাম্বার</label>
                                                             <div class="input-group holcim-file-upload-input-field">
-                                                                <input type="text" class="form-control" id="email"
-                                                                    placeholder="" />
-                                                                <button class="holcim-file-upload-btn-wrapper"
-                                                                    type="button" id="email">
-                                                                    <div class="holcim-file-upload-btn">
-                                                                        আপলোড করুন
-                                                                    </div>
-                                                                </button>
+                                                                <input type="text" class="form-control input-modify-1"
+                                                                    id="email" placeholder="" />
+                                                                <div class="input-modify-2-wrapper">
+                                                                    <!-- <input class="form-control input-modify-2"
+                                                                        type="file" id="formFile" /> -->
+
+                                                                    <input class="form-control input-modify-2"
+                                                                        type="file" id="formFile">
+                                                                </div>
                                                             </div>
                                                         </div>
 
@@ -6555,14 +6583,15 @@ License: For each use you must have a valid license purchased only from above li
                                                             <label for="exampleFormControlInput2" class="form-label">
                                                                 ট্রেড লাইসেন্স নাম্বার</label>
                                                             <div class="input-group holcim-file-upload-input-field">
-                                                                <input type="text" class="form-control" id="email"
-                                                                    placeholder="" />
-                                                                <button class="holcim-file-upload-btn-wrapper"
-                                                                    type="button" id="email">
-                                                                    <div class="holcim-file-upload-btn">
-                                                                        আপলোড করুন
-                                                                    </div>
-                                                                </button>
+                                                                <input type="text" class="form-control input-modify-1"
+                                                                    id="email" placeholder="" />
+                                                                <div class="input-modify-2-wrapper">
+                                                                    <!-- <input class="form-control input-modify-2"
+                                                                            type="file" id="formFile" /> -->
+
+                                                                    <input class="form-control input-modify-2"
+                                                                        type="file" id="formFile">
+                                                                </div>
                                                             </div>
                                                         </div>
 
@@ -6570,14 +6599,15 @@ License: For each use you must have a valid license purchased only from above li
                                                             <label for="exampleFormControlInput1" class="form-label">
                                                                 ভেন্ডর এনলিস্টেড ফরম</label>
                                                             <div class="input-group holcim-file-upload-input-field">
-                                                                <input type="text" class="form-control" id="email"
-                                                                    placeholder="" />
-                                                                <button class="holcim-file-upload-btn-wrapper"
-                                                                    type="button" id="email">
-                                                                    <div class="holcim-file-upload-btn">
-                                                                        আপলোড করুন
-                                                                    </div>
-                                                                </button>
+                                                                <input type="text" class="form-control input-modify-1"
+                                                                    id="email" placeholder="" />
+                                                                <div class="input-modify-2-wrapper">
+                                                                    <!-- <input class="form-control input-modify-2"
+                                                                            type="file" id="formFile" /> -->
+
+                                                                    <input class="form-control input-modify-2"
+                                                                        type="file" id="formFile">
+                                                                </div>
                                                             </div>
                                                         </div>
 
@@ -6585,14 +6615,15 @@ License: For each use you must have a valid license purchased only from above li
                                                             <label for="exampleFormControlInput1" class="form-label">
                                                                 ব্যাঙ্ক ডাটা</label>
                                                             <div class="input-group holcim-file-upload-input-field">
-                                                                <input type="text" class="form-control" id="email"
-                                                                    placeholder="" />
-                                                                <button class="holcim-file-upload-btn-wrapper"
-                                                                    type="button" id="email">
-                                                                    <div class="holcim-file-upload-btn">
-                                                                        আপলোড করুন
-                                                                    </div>
-                                                                </button>
+                                                                <input type="text" class="form-control input-modify-1"
+                                                                    id="email" placeholder="" />
+                                                                <div class="input-modify-2-wrapper">
+                                                                    <!-- <input class="form-control input-modify-2"
+                                                                            type="file" id="formFile" /> -->
+
+                                                                    <input class="form-control input-modify-2"
+                                                                        type="file" id="formFile">
+                                                                </div>
                                                             </div>
                                                         </div>
                                                     </div>
@@ -6608,7 +6639,7 @@ License: For each use you must have a valid license purchased only from above li
                                                                     <div class="form-check">
                                                                         <input class="form-check-input" type="radio"
                                                                             name="exampleRadios" id="exampleRadios1"
-                                                                            value="option1" checked>
+                                                                            value="option1" checked />
                                                                         <label class="form-check-label"
                                                                             for="exampleRadios1">
                                                                             হ্যা
@@ -6617,7 +6648,7 @@ License: For each use you must have a valid license purchased only from above li
                                                                     <div class="form-check mx-3">
                                                                         <input class="form-check-input" type="radio"
                                                                             name="exampleRadios" id="exampleRadios2"
-                                                                            value="option2">
+                                                                            value="option2" />
                                                                         <label class="form-check-label"
                                                                             for="exampleRadios2">
                                                                             না
@@ -6626,14 +6657,12 @@ License: For each use you must have a valid license purchased only from above li
                                                                 </div>
                                                             </div>
                                                             <div class="input-group holcim-file-upload-input-field">
-                                                                <input type="text" class="form-control" id="email"
-                                                                    placeholder="" />
-                                                                <button class="holcim-file-upload-btn-wrapper"
-                                                                    type="button" id="email">
-                                                                    <div class="holcim-file-upload-btn">
-                                                                        আপলোড করুন
-                                                                    </div>
-                                                                </button>
+                                                                <input type="text" class="form-control input-modify-1"
+                                                                    id="email" placeholder="" />
+                                                                <div class="input-modify-2-wrapper">
+                                                                    <input class="form-control input-modify-2"
+                                                                        type="file" id="formFile">
+                                                                </div>
                                                             </div>
                                                         </div>
 
@@ -6641,14 +6670,12 @@ License: For each use you must have a valid license purchased only from above li
                                                             <label for="exampleFormControlInput1" class="form-label">
                                                                 অ্যাকনলেজমেন্ট লেটার, সিল, সিগনেচার</label>
                                                             <div class="input-group holcim-file-upload-input-field">
-                                                                <input type="text" class="form-control" id="email"
-                                                                    placeholder="" />
-                                                                <button class="holcim-file-upload-btn-wrapper"
-                                                                    type="button" id="email">
-                                                                    <div class="holcim-file-upload-btn">
-                                                                        আপলোড করুন
-                                                                    </div>
-                                                                </button>
+                                                                <input type="text" class="form-control input-modify-1"
+                                                                    id="email" placeholder="" />
+                                                                <div class="input-modify-2-wrapper">
+                                                                    <input class="form-control input-modify-2"
+                                                                        type="file" id="formFile">
+                                                                </div>
                                                             </div>
                                                         </div>
 
@@ -6656,14 +6683,12 @@ License: For each use you must have a valid license purchased only from above li
                                                             <label for="exampleFormControlInput1" class="form-label">
                                                                 বিন সার্টিফিকেট</label>
                                                             <div class="input-group holcim-file-upload-input-field">
-                                                                <input type="text" class="form-control" id="email"
-                                                                    placeholder="" />
-                                                                <button class="holcim-file-upload-btn-wrapper"
-                                                                    type="button" id="email">
-                                                                    <div class="holcim-file-upload-btn">
-                                                                        আপলোড করুন
-                                                                    </div>
-                                                                </button>
+                                                                <input type="text" class="form-control input-modify-1"
+                                                                    id="email" placeholder="" />
+                                                                <div class="input-modify-2-wrapper">
+                                                                    <input class="form-control input-modify-2"
+                                                                        type="file" id="formFile">
+                                                                </div>
                                                             </div>
                                                         </div>
                                                     </div>
@@ -6672,14 +6697,12 @@ License: For each use you must have a valid license purchased only from above li
                                                             <label for="exampleFormControlInput1" class="form-label">
                                                                 টিন সার্টিফিকেট</label>
                                                             <div class="input-group holcim-file-upload-input-field">
-                                                                <input type="text" class="form-control" id="email"
-                                                                    placeholder="" />
-                                                                <button class="holcim-file-upload-btn-wrapper"
-                                                                    type="button" id="email">
-                                                                    <div class="holcim-file-upload-btn">
-                                                                        আপলোড করুন
-                                                                    </div>
-                                                                </button>
+                                                                <input type="text" class="form-control input-modify-1"
+                                                                    id="email" placeholder="" />
+                                                                <div class="input-modify-2-wrapper">
+                                                                    <input class="form-control input-modify-2"
+                                                                        type="file" id="formFile">
+                                                                </div>
                                                             </div>
                                                         </div>
 
@@ -6687,14 +6710,12 @@ License: For each use you must have a valid license purchased only from above li
                                                             <label for="exampleFormControlInput1" class="form-label">
                                                                 টিন নাম্বার</label>
                                                             <div class="input-group holcim-file-upload-input-field">
-                                                                <input type="text" class="form-control" id="email"
-                                                                    placeholder="" />
-                                                                <button class="holcim-file-upload-btn-wrapper"
-                                                                    type="button" id="email">
-                                                                    <div class="holcim-file-upload-btn">
-                                                                        আপলোড করুন
-                                                                    </div>
-                                                                </button>
+                                                                <input type="text" class="form-control input-modify-1"
+                                                                    id="email" placeholder="" />
+                                                                <div class="input-modify-2-wrapper">
+                                                                    <input class="form-control input-modify-2"
+                                                                        type="file" id="formFile">
+                                                                </div>
                                                             </div>
                                                         </div>
 
@@ -6702,22 +6723,22 @@ License: For each use you must have a valid license purchased only from above li
                                                             <label for="exampleFormControlInput1" class="form-label">
                                                                 বাতিককৃত চেকের পাতা বা ফটোকপি</label>
                                                             <div class="input-group holcim-file-upload-input-field">
-                                                                <input type="text" class="form-control" id="email"
-                                                                    placeholder="" />
-                                                                <button class="holcim-file-upload-btn-wrapper"
-                                                                    type="button" id="email">
-                                                                    <div class="holcim-file-upload-btn">
-                                                                        আপলোড করুন
-                                                                    </div>
-                                                                </button>
+                                                                <input type="text" class="form-control input-modify-1"
+                                                                    id="email" placeholder="" />
+                                                                <div class="input-modify-2-wrapper">
+                                                                    <input class="form-control input-modify-2"
+                                                                        type="file" id="formFile">
+                                                                </div>
                                                             </div>
                                                         </div>
 
                                                         <div class="holcim-save-and-publish-btn-wrapper">
-                                                            <button class="holcim-file-upload-save-btn">Save</button>
-                                                            <button
-                                                                class="holcim-file-upload-publish-btn">Publish</button>
-
+                                                            <button class="holcim-file-upload-save-btn">
+                                                                Save
+                                                            </button>
+                                                            <button class="holcim-file-upload-publish-btn">
+                                                                Publish
+                                                            </button>
                                                         </div>
                                                     </div>
                                                 </div>
